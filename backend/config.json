@@ -1,0 +1,30 @@
+{
+  
+  "ruleOrder": ["cookie", "header", "ip", "percentage"],
+
+ 
+  "sticky": false,
+
+  
+  "cookieName": "pricing_version",
+
+  
+  "percentage": {
+    "blue": 70,
+    "green": 30
+  },
+
+  
+  "ip": {
+    "192.168.1.0/24": "green",
+    "10.0.0.0/8": "blue"
+  },
+
+  
+  "header": {
+    "X-Version": {
+      "blue": "blue",
+      "green": "green"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": "green",
+"plans": [
+{ "name": "Basic", "price": "4.50", "features": ["A", "B"] },
+{ "name": "Pro", "price": "14.00", "features": ["A", "B", "C", "D"] }
+]
+}
