@@ -1,4 +1,4 @@
-# Blue-Green Pricing Demo
+# Blue-Green Pricing
 
 A modular backend + frontend project demonstrating **Blue-Green deployment routing** for a pricing page.  
 The backend serves **Blue** and **Green** pricing JSON files based on configurable routing rules.
