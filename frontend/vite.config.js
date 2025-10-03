@@ -4,10 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    proxy: {
-      // '/pricing': 'http://localhost:3000'
-      '/pricing': 'https://blue-green-deployment-jrk7.onrender.com'
-    }
-  }
+  // server: {
+  //   proxy: {
+  //     '/pricing': 'http://localhost:3000'
+  //   }
+  // }
 })
