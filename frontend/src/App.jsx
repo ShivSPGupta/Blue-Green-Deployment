@@ -6,7 +6,7 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://blue-green-deployment-jrk7.onrender.com/pricing', { credentials: 'include' })
+    fetch('/pricing', { credentials: 'include' })
       .then(r => r.json())
       .then(setPricing)
       .catch(e => setError(e.message));
