@@ -2,6 +2,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const cors = require('cors');
 const { makeRouter } = require('./router');
 const { log } = require('./logger');
 
@@ -18,6 +19,11 @@ if (process.env.PERCENT_BLUE) config.percentage = { blue: parseInt(process.env.P
 if (process.env.STICKY) config.sticky = process.env.STICKY === 'true';
 
 const app = express();
+
+app.use(cors({
+  origin: 'https://blue-green-deployment-1.onrender.com',
+}));
+
 if (process.env.TRUST_PROXY === 'true') app.set('trust proxy', true);
 const PORT = process.env.PORT || 3000;
 
