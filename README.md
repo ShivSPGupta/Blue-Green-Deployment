@@ -61,6 +61,16 @@ node server.js
 
 Now visit [http://localhost:3000](http://localhost:3000).
 
+### 4. Live on Render
+Build and serve frontend from backend:
+```bash
+cd frontend
+npm run build
+cd ../backend
+node server.js
+```
+
+Now visit [http://localhost:3000](http://localhost:3000).
 ---
 
 ## ⚖️ Routing Rules
