@@ -22,6 +22,7 @@ const app = express();
 
 app.use(cors({
   origin: 'https://blue-green-deployment-1.onrender.com',
+  credentials: true,
 }));
 
 if (process.env.TRUST_PROXY === 'true') app.set('trust proxy', true);
