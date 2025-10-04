@@ -62,15 +62,10 @@ node server.js
 Now visit [http://localhost:3000](http://localhost:3000).
 
 ### 4. Live on Render
-Build and serve frontend from backend:
-```bash
-cd frontend
-npm run build
-cd ../backend
-node server.js
-```
+Frontend:- https://blue-green-deployment-1.onrender.com/
+Backend:- https://blue-green-deployment-jrk7.onrender.com/pricing
 
-Now visit [http://localhost:3000](http://localhost:3000).
+Now visit [https://blue-green-deployment-1.onrender.com/](https://blue-green-deployment-1.onrender.com/).
 ---
 
 ## ⚖️ Routing Rules
